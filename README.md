@@ -15,7 +15,7 @@
 5. Apontar o banco no arquivo **.env.example** para o database criado no arquivo **Homestead.yaml**
 
 ```yaml
-ip: 192.168.10.69
+ip: 127.0.0.1
 memory: 2048
 cpus: 1
 provider: virtualbox
@@ -25,15 +25,15 @@ keys:
 folders:
     -
         map: .
-        to: /var/www/laravel_project
+        to: /home/vagrant/laravel_project
 sites:
     -
         map: laravel_project.test
-        to: /var/www/laravel_project/public
+        to: /home/vagrant/laravel_project/public
 databases:
     - laravel_project
 name: laravel_project
-hostname: secret
+hostname: laravel_project
 ```
 
 5. Rodar o comando `vendor/bin/homestead make`
