@@ -9,7 +9,7 @@
 
 #### Iniciando um projeto Laravel
 1. Instalar o Composer -> [Clique aqui](https://getcomposer.org/ "Clique aqui")
-2. Instalar o Instalador do Laravel `composer global require "laravel/installer"` e dar um `laravel new nome_do_projeto` ou via Compsoer `composer create-project --prefer-dist laravel/laravel nome_do_projeto`
+2. Instalar o Instalador do Laravel `composer global require "laravel/installer"` e dar um `laravel new nome_do_projeto` ou via Composer `composer create-project --prefer-dist laravel/laravel nome_do_projeto`
 3. Instalar o Homestead no projeto `composer require laravel/homestead --dev`
 4. Criar um arquivo **Homestead.yaml.example** para servir de base para seu arquivo **Homestead.yaml** ou depois de rodar o compando `vendor/bin/homestead` altere o arquivo gerado de acordo com suas preferências.
 5. Apontar o banco no arquivo **.env.example** para o database criado no arquivo **Homestead.yaml**
